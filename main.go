@@ -1,24 +1,21 @@
 package main
 import "fmt"
 func main(){
+x := 582
+y := 392
 
-Name := "assad"
-Age := 18
-race := "Muslim"
-isTall := true
-hasbigfeet := true
-isgay := false
-canplaysoccer := true
-howtall := 68.46
+fmt.Printf("Addition : %d + %d = %d\n", x, y, x+y)
+fmt.Printf("Subtraction : %d - %d = %d\n", x, y, x-y)
+fmt.Printf("Multipication : %d * %d = %d\n", x, y, x*y)
+fmt.Printf("Division : %d / %d = %d\n", x, y, x/y)
+fmt.Printf("Remainder : %d %% %d = %d\n", x, y, x%y)
 
-fmt.Printf(
-	"Name: %s\n Age: %d\n race: %s\n is Tall: %t\n has big feet: %t\n is gay: %t\n can play soccer: %t\n how tall: %f\n",
-	Name, Age, race, isTall, hasbigfeet, isgay, canplaysoccer, howtall,
-)
-
+	
 
 
 }
+
+
 
 
 
